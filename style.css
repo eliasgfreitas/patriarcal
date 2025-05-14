@@ -1,0 +1,101 @@
+body {
+      font-family: 'TypeMachine', Arial, sans-serif;
+      margin: 0;
+      padding: 0; 
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #3f995d;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #317046;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    main {
+      padding: 20px;
+      background-color: white;
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+    }
+    footer {
+      background-color: #48805b;
+      color: white;
+      text-align: center;
+      font-family: 'ElegantTypewriter';
+      padding: 10px;
+      margin-top: 20px;
+    }
+
+    .imagemcentralizada{
+      text-align: center; /* centraliza conteúdo inline, como <img> */
+      margin-top: 20px;   /* opcional, espaçamento acima */
+    }
+
+    .imagemcentralizada2{
+      text-align: center; /* centraliza conteúdo inline, como <img> */
+      margin-top: 20px;  /* opcional, espaçamento acima */
+      
+    }
+
+    .video-centralizado {
+      display: flex;
+      justify-content: center; /* centraliza horizontalmente */
+      margin-top: 20px;
+    }
+    
+    .video-yt {
+      width: 560px;   /* ajuste o tamanho conforme necessário */
+      height: 315px;
+      border-radius: 10px; /* opcional: bordas arredondadas */
+      max-width: 100%;     /* responsivo para telas pequenas */
+    }
+
+    @font-face {
+      font-family: 'ElegantTypewriter';
+      src: url('fonts/ELEGANT TYPEWRITER Bold.ttf') format('truetype');
+      font-weight: bold;
+      font-style: normal;
+    }
+
+    /*@font-face {
+      font-family: 'ElegantTypewriter';
+      src: url('fonts/ELEGANT\ TYPEWRITER\ Regular.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }*/
+
+    @font-face {
+      font-family: 'JMHTypewriter';
+      src: url('fonts/JMH\ Typewriter-Black.ttf') format('truetype');
+      font-weight: bold;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'TypeMachine';
+      src: url('fonts/Type Machine.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    .materiais{
+      text-align: center;
+      font-family:'TypeMachine'
+    }
+    .TituloDaPágina{
+      text-align: center;
+      font-family: 'JMHTypewriter';
+    }
