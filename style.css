@@ -42,13 +42,38 @@ body {
     .imagemcentralizada{
       text-align: center; /* centraliza conteúdo inline, como <img> */
       margin-top: 20px;   /* opcional, espaçamento acima */
+      border-radius: 10px;
     }
 
     .imagemcentralizada2{
       text-align: center; /* centraliza conteúdo inline, como <img> */
       margin-top: 20px;  /* opcional, espaçamento acima */
-      
+      border-radius: 10px;
     }
+
+    .imagemcentralizada-bispo{
+      text-align: center; /* centraliza conteúdo inline, como <img> */
+      margin-top: 20px;  /* opcional, espaçamento acima */
+      border-radius: 10px;
+    }
+
+    .imagem-responsiva {
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    border-radius: 10px;
+  }
+
+    @media (max-width: 768px) {
+    .imagem-responsiva {
+        width: 90%;
+        max-width: 400px;
+        margin-top: 10px; /* Reduz espaço em telas pequenas */
+        padding: 0 10px;  /* Pequeno padding para não colar nas bordas */
+        border-radius: 10px;
+    }
+}
 
     .video-centralizado {
       display: flex;
@@ -97,5 +122,25 @@ body {
     }
     .TituloDaPágina{
       text-align: center;
-      font-family: 'JMHTypewriter';
     }
+
+    .Citação{
+    width: 40%;         /* Define a largura máxima */
+    padding: 05px 20px;        /* Espaço interno para o texto não grudar nas bordas */
+    margin: 0 auto;       /* Centraliza horizontalmente */
+    background-color: #317046;
+    border: 1px solid #00573d;     /* Borda fina */
+    border-radius: 8px;   /* Cantos arredondados (opcional) */
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    color: white;
+    }
+
+    @media (max-width: 768px) {
+    .Citação {
+        width: 90%;        /* Aumenta a largura para caber melhor na tela pequena */
+        font-size: 17px;   /* Reduz o tamanho da fonte se necessário */
+        padding: 15px;     /* Ajusta o espaço interno */
+    }
+}
