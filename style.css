@@ -128,12 +128,36 @@ body {
       font-style: normal;
     }
 
-    .materiais{
-      text-align: center;
-      font-family:'TypeMachine'
+    .texto{
+      font-size: 18px;
+      text-align: justify;
+      font-family:'TypeMachine';
+      margin-left: 120px;
+      margin-right: 120px;
     }
-    .TituloDaPágina{
+
+    .textoDestaque{
+      font-size: 18px;
+      font-weight: bold;
       text-align: center;
+      font-family:'TypeMachine';
+      margin-left: 120px;
+      margin-right: 120px;
+    }
+
+    .textoDestaque2{
+      font-size: 18px;
+      text-align: center;
+      font-family:'TypeMachine';
+      margin-left: 120px;
+      margin-right: 120px;
+    }
+    .Titulos{
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+      margin-left: 120px;
+      margin-right: 120px;
     }
 
     .Citação{
@@ -143,7 +167,7 @@ body {
     background-color: #317046;
     border: 1px solid #00573d;     /* Borda fina */
     border-radius: 8px;   /* Cantos arredondados (opcional) */
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     text-align: justify;
     color: white;
@@ -156,3 +180,13 @@ body {
         padding: 15px;     /* Ajusta o espaço interno */
     }
 }
+
+    @media (max-width: 768px) {
+      .texto,
+      .textoDestaque,
+      .textoDestaque2,
+      .Titulos {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
