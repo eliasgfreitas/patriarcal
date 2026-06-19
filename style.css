@@ -136,6 +136,10 @@ body {
       margin-right: 120px;
     }
 
+    .texto-central{
+      text-align: center;
+    }
+
     .textoDestaque{
       font-size: 18px;
       font-weight: bold;
@@ -190,3 +194,26 @@ body {
         margin-right: 0;
       }
     }
+
+
+    .video-container {
+          width: 100%;
+          max-width: 800px;   /* largura máxima no desktop */
+          margin: 0 auto;     /* centraliza */
+      }
+
+      .video-container video {
+          width: 100%;
+          height: auto;
+          display: block;
+          border-radius: 12px;
+      }
+
+      /* Mobile */
+      @media (max-width: 768px) {
+          .video-container {
+              max-width: 100%;
+              padding: 0 10px; /* margem lateral opcional */
+              box-sizing: border-box;
+          }
+      }
